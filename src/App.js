@@ -20,8 +20,8 @@ function App() {
 
   return (
     <div className="h-screen w-full">
-      <h1 className="bg-yellow-500 h-20 flex items-center justify-center text-center text-4xl text-white font-bold">
-        Rick and Morty Api Challenge
+      <h1 className="bg-custom-yellow h-20 flex items-center justify-center text-center text-4xl text-black font-bold">
+        Rick and Morty Api
       </h1>
       <div className="">
         <Home species={species} getQuery={(q) => setQuery(q)} />

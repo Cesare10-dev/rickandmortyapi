@@ -1,7 +1,7 @@
 function Character({ item }) {
   return (
-    <div className="w-44 flex flex-col m-5 mb-10">
-      <h2 className="font-bold text-lg ml-3 mb-1">
+    <div className="w-64 flex flex-col m-8 mb-10">
+      <h2 className="font-bold text-xl ml-3 mb-1">
         {item.name.substring(0, 16)}
       </h2>
       <img src={item.image} alt="img" className="rounded-md w-30" />

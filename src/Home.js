@@ -10,8 +10,8 @@ function Home({ species, getQuery }) {
   };
   return (
     <div>
-      <div className="flex flex-col items-center justify-evenly w-full h-40 bg-green-400">
-        <h2 className="text-2xl font-bold">Search the Character</h2>
+      <div className="flex flex-col items-center justify-evenly w-full h-40 bg-orange-custom">
+        <h2 className="text-2xl font-bold text-white">Search the Character</h2>
         <form>
           <input
             className="px-4 py-2 rounded-md font-bold border-2 outline-none border-yellow-400"
@@ -29,7 +29,7 @@ function Home({ species, getQuery }) {
         </form>
       </div>
 
-      <div className="flex w-full flex-wrap m-auto justify-center mt-10">
+      <div className="flex w-full flex-wrap m-auto justify-center bg-light-blue">
         {species.map((item, index) => (
           <Character key={index} item={item} />
         ))}
