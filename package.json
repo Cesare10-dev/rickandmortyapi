@@ -1,5 +1,5 @@
 {
-  "name": "bimspot-test",
+  "name": "rickandmortyapi",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
