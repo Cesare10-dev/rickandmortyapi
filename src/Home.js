@@ -11,7 +11,7 @@ function Home({ species, getQuery }) {
   return (
     <div>
       <div className="flex flex-col items-center justify-evenly w-full h-40 bg-orange-custom">
-        <h2 className="text-2xl font-bold text-white">Search the Character</h2>
+        <h2 className="text-3xl font-bold text-white">Search the Character</h2>
         <form>
           <input
             className="px-4 py-2 rounded-md font-bold border-2 outline-none border-yellow-400"
